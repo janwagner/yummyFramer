@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		
+		<meta name="format-detection" content="telephone=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<script type="text/javascript">
+		// This automatically sets the right viewport scale on mobile devices
+		(function() {
+ 		var scale = 1 / window.devicePixelRatio
+ 		var viewport = "width=device-width, height=device-height, initial-scale=" + scale + ", maximum-scale=" + scale + ", user-scalable=no"
+ 		var iOS = /iPad|iPhone|iPod/.test(navigator.platform)
+ 		if (iOS) { viewport += ", shrink-to-fit=no" }
+ 		document.write("<meta name=\"viewport\" content=\"" + viewport + "\">")
+		})()
+		</script>
+
+		<link rel="apple-touch-icon" href="framer/images/icon-120.png">
+		<link rel="apple-touch-icon" href="framer/images/icon-76.png" sizes="76x76">
+		<link rel="apple-touch-icon" href="framer/images/icon-120.png" sizes="120x120">
+		<link rel="apple-touch-icon" href="framer/images/icon-152.png" sizes="152x152">
+		<link rel="apple-touch-icon" href="framer/images/icon-180.png" sizes="180x180">
+		<link rel="apple-touch-icon" href="framer/images/icon-192.png" sizes="192x192">
+
+		<link rel="stylesheet" type="text/css" href="framer/style.css?nocache=6d40bc53861208d298f85019e08849ff">
+
+		<script src="framer/coffee-script.js"></script>
+		<script src="framer/framer.js?nocache=ec02c32f6399d539d8bd54fcefb44c9d"></script>
+		<script src="framer/framer.generated.js?nocache=fca5a3b45175cfa8b5fed31fe8963eb2"></script>
+		<script src="framer/framer.modules.js?nocache=0269006d27018b6b4a85e7383055875f"></script>
+		<script src="framer/framer.vekter.js"></script>
+		<script>Framer.Device.hideBezel = false</script><script>document.addEventListener("DOMContentLoaded", function() {window.__framerClientCodeId = 37;(function() {
+  var app, lastViewTransition, nextViewTransition, ref, yummy, ƒ, ƒƒ;
+
+  app = Framer.Importer.load("imported/yummy@2x", {
+    scale: 1
+  });
+
+  Utils.globalLayers(app);
+
+  yummy = require("yummy");
+
+  window.io = [];
+
+  ref = require('findModule'), ƒ = ref.ƒ, ƒƒ = ref.ƒƒ;
+
+  yummy.views([ƒƒ('*view*')]);
+
+  yummy.buttons(ƒƒ('*Button*'));
+
+  viewOne.visible = true;
+
+  window.thisView = viewOne;
+
+  nextViewTransition = "";
+
+  lastViewTransition = "";
+
+  nextViewFromAboveButton.onTouchEnd(function() {
+    nextViewTransition = "above";
+    return yummy.nextViewFrom(nextViewTransition, viewTwo, 0, 0.5, Bezier.ease, null);
+  });
+
+  nextViewFromRightButton.onTouchEnd(function() {
+    nextViewTransition = "right";
+    return yummy.nextViewFrom(nextViewTransition, viewTwo, 0, 0.5, Bezier.ease, null);
+  });
+
+  nextViewFromOverlayButton.onTouchEnd(function() {
+    nextViewTransition = "overlay";
+    return yummy.nextViewFrom(nextViewTransition, viewTwo, 0, 0.5, Bezier.ease, null);
+  });
+
+  backButton.onTouchEnd(function() {
+    if (nextViewTransition === "above") {
+      lastViewTransition = "below";
+    } else if (nextViewTransition === "right") {
+      lastViewTransition = "left";
+    } else if (nextViewTransition === "overlay") {
+      lastViewTransition = "overlay";
+    }
+    return yummy.nextViewFrom(lastViewTransition, viewOne, 0, 0.5, Bezier.ease, null);
+  });
+
+}).call(this);
+})</script>
+
+	</head>
+	<body>
+	</body>
+</html>
