@@ -1,7 +1,4 @@
 app.coffee
-framer/backups/backup-2017-08-23 14.00.26.coffee
-framer/backups/backup-2017-08-23 14.01.26.coffee
-framer/backups/backup-2017-08-23 14.02.26.coffee
 framer/backups/backup-2017-08-23 14.03.26.coffee
 framer/backups/backup-2017-08-23 14.05.26.coffee
 framer/backups/backup-2017-08-23 14.06.26.coffee
@@ -39,6 +36,9 @@ framer/backups/backup-2017-08-23 16.07.51.coffee
 framer/backups/backup-2017-08-23 16.39.51.coffee
 framer/backups/backup-2017-08-23 16.40.51.coffee
 framer/backups/backup-2017-08-23 16.42.51.coffee
+framer/backups/backup-2017-08-23 17.38.51.coffee
+framer/backups/backup-2017-08-23 17.45.51.coffee
+framer/backups/backup-2017-08-23 17.46.52.coffee
 framer/coffee-script.js
 framer/config.json
 framer/design.vekter
@@ -65,22 +65,6 @@ framer/social-80x80.png
 framer/social-880x460.png
 framer/style.css
 framer/version
-imported/app@2x/images/Layer-viewOne-qujenuq5.png
-imported/app@2x/images/Layer-viewThree-nji2nkm3.png
-imported/app@2x/images/Layer-viewTwo-ndk3mevg.png
-imported/app@2x/layers.json
-imported/app@2x/layers.json.js
-imported/yummy@1x/images/Layer-default-njmzn0u5.png
-imported/yummy@1x/images/Layer-default-qze0njk4.png
-imported/yummy@1x/images/Layer-default-rtbdreu4.png
-imported/yummy@1x/images/Layer-pressed-mzderte4.png
-imported/yummy@1x/images/Layer-pressed-n0vgoeyx.png
-imported/yummy@1x/images/Layer-pressed-ndlcnzrb.png
-imported/yummy@1x/images/Layer-viewOne-qujenuq5.png
-imported/yummy@1x/images/Layer-viewThree-nji2nkm3.png
-imported/yummy@1x/images/Layer-viewTwo-ndk3mevg.png
-imported/yummy@1x/layers.json
-imported/yummy@1x/layers.json.js
 imported/yummy@2x/images/Layer-default-n0y0mzm4.png
 imported/yummy@2x/images/Layer-default-qze0njk4.png
 imported/yummy@2x/images/Layer-default-qzqxneey.png

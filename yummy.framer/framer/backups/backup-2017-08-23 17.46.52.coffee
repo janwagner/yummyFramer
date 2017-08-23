@@ -1,6 +1,4 @@
 # Import file "yummy"
-app = Framer.Importer.load("imported/yummy@2x", scale: 1)
-# Import file "yummy"
 
 Utils.globalLayers app
 

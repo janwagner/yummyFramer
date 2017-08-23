@@ -114,7 +114,7 @@ window.__imported__["yummy@2x/layers.json.js"] = [
 		},
 		"visible": true,
 		"metadata": {},
-		"backgroundColor": "rgba(47.00000000000003, 41, 99.00000000000001, 1)",
+		"backgroundColor": "rgba(245.2363023161888, 133.793968446654, 35.328285098075874, 1)",
 		"image": {
 			"path": "images/Layer-viewOne-qujenuq5.png",
 			"frame": {

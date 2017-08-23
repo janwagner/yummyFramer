@@ -1,7 +1,7 @@
 # Import file "yummy"
+sketch = Framer.Importer.load("imported/yummy@1x", scale: 1)
+# import sketch file
 app = Framer.Importer.load("imported/yummy@2x", scale: 1)
-# Import file "yummy"
-
 Utils.globalLayers app
 
 # load yummy module
