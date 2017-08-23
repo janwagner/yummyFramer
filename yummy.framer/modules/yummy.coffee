@@ -26,15 +26,15 @@ class YUMMY
 			view.x = 0
 			view.y = 0
 
-	@preloadLayers = (array) ->
+	@preloadImages = (array) ->
 
 		# array as array of layer
 
 		Framer.Extras.Preloader.enable()
 
-		preloadLayers = array
+		preloadImages = array
 
-		for layer in preloadLayers
+		for layer in preloadImages
 			Framer.Extras.Preloader.addImage(layer.image)
 
 	@buttons = (array) ->

@@ -1,4 +1,4 @@
-# import sketch file
+# import ske
 app = Framer.Importer.load("imported/yummy@2x", scale: 1)
 Utils.globalLayers app
 
@@ -6,11 +6,11 @@ Utils.globalLayers app
 yummy = require "yummy"
 window.io = []
 	
-# load gorgeous FindFramer module // https://github.com/awt2542/Find-for-Framer
+# load FindFramer module // https://github.com/awt2542/Find-for-Framer
 {ƒ,ƒƒ} = require 'findModule'
 
 # preload all images for cloud view
-yummy.preloadImages([ƒƒ('*')])
+yummy.preloadLayers([ƒƒ('*')])
 	
 # init views
 yummy.views([ƒƒ('*view*')])
