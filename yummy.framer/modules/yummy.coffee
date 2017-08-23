@@ -81,13 +81,13 @@ class YUMMY
 			x: 0
 			y: 0
 
-	@nextViewFrom = (from, enteringView, delay, time, ease, nextFunction) ->
+	@nextViewFrom = (from, enteringView, delay, time, curve, nextFunction) ->
 
 		# from as string
 		# enteringView as layer
 		# delay as int
 		# time as int
-		# ease as ease
+		# curve as curve
 		# nextFunction as function
 
 		leavingView = window.thisView
@@ -131,7 +131,7 @@ class YUMMY
 				options:
 					delay: delay
 					time: time
-					curve: ease
+					curve: curve
 				opacity: 1
 				scale: 1
 
@@ -147,13 +147,13 @@ class YUMMY
 				options:
 					delay: delay
 					time: time
-					curve: ease
+					curve: curve
 				opacity: 1
 			leavingView.animate
 				options:
 					delay: delay
 					time: time
-					curve: ease
+					curve: curve
 				opacity: 0
 				scale: 1.1
 
@@ -169,13 +169,13 @@ class YUMMY
 				options:
 					delay: delay
 					time: time
-					curve: ease
+					curve: curve
 				opacity: 1
 			leavingView.animate
 				options:
 					delay: delay
 					time: time
-					curve: ease
+					curve: curve
 				opacity: 0
 
 		else if from == "overlay"
@@ -215,7 +215,7 @@ class YUMMY
 			options:
 				delay: delay
 				time: time
-				curve: ease
+				curve: curve
 			x: leavingViewToX
 			y: leavingViewToY
 			scale: leavingViewToScale
@@ -224,7 +224,7 @@ class YUMMY
 			options:
 				delay: delay
 				time: time
-				curve: ease
+				curve: curve
 			x: 0
 			y: 0
 			scale: enteringViewToScale

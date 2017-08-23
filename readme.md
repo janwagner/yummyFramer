@@ -1,4 +1,5 @@
 # yummy Framer
+A module library for Framer. And I have to warn you, I am certainly more a designer than a programmer. So Everybody is more than welcome to help :)
 
 ### Version
 1.0.0
@@ -31,14 +32,14 @@
 ```
 #### Load Next View
 ```sh
-    @nextViewFrom = (from, enteringView, delay, time, ease, nextFunction)
+    @nextViewFrom = (from, enteringView, delay, time, curve, nextFunction)
     
     # from as string
         "left", "right", "above", "below", "alpha", "overlay"
     # enteringView as layer
     # delay as int
     # time as int
-    # ease as ease
+    # curve as curve
         Bezier.ease, Bezier.easeIn, Bezier.linear, Bezier.easeIn, Bezier.easeInOut, Spring
     # nextFunction as function
 ```
