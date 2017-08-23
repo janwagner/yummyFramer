@@ -26,6 +26,17 @@ class YUMMY
 			view.x = 0
 			view.y = 0
 
+	@preloadLayers = (array) ->
+
+		# array as array of layer
+
+		Framer.Extras.Preloader.enable()
+
+		preloadLayers = array
+
+		for layer in preloadLayers
+			Framer.Extras.Preloader.addImage(layer.image)
+
 	@buttons = (array) ->
 
 		# array as array of buttons
@@ -91,8 +102,8 @@ class YUMMY
 		leavingViewToX = null
 		leavingViewToY = null
 
-		leavingViewScale = 1
-		enteringViewScale = 1
+		leavingView.scale = 1
+		enteringView.scale = 1
 
 		# transition
 		if from == "left"

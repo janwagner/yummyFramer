@@ -1,5 +1,4 @@
 app.coffee
-framer/backups/backup-2017-08-23 13.39.26.coffee
 framer/backups/backup-2017-08-23 13.42.26.coffee
 framer/backups/backup-2017-08-23 13.47.26.coffee
 framer/backups/backup-2017-08-23 13.49.26.coffee
@@ -39,6 +38,7 @@ framer/backups/backup-2017-08-23 14.46.26.coffee
 framer/backups/backup-2017-08-23 14.47.26.coffee
 framer/backups/backup-2017-08-23 14.57.37.coffee
 framer/backups/backup-2017-08-23 14.57.37.vekter
+framer/backups/backup-2017-08-23 15.06.37.coffee
 framer/coffee-script.js
 framer/config.json
 framer/design.vekter
@@ -59,6 +59,10 @@ framer/images/icon-192.png
 framer/images/icon-76.png
 framer/manifest.txt
 framer/preview.png
+framer/social-1200x630.png
+framer/social-800x600.png
+framer/social-80x80.png
+framer/social-880x460.png
 framer/style.css
 framer/version
 imported/app@2x/images/Layer-viewOne-qujenuq5.png
