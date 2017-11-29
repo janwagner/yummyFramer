@@ -1,51 +1,9 @@
 app.coffee
-framer/backups/backup-2017-08-23 14.05.26.coffee
-framer/backups/backup-2017-08-23 14.06.26.coffee
-framer/backups/backup-2017-08-23 14.08.26.coffee
-framer/backups/backup-2017-08-23 14.09.26.coffee
-framer/backups/backup-2017-08-23 14.10.26.coffee
-framer/backups/backup-2017-08-23 14.15.26.coffee
-framer/backups/backup-2017-08-23 14.16.26.coffee
-framer/backups/backup-2017-08-23 14.18.26.coffee
-framer/backups/backup-2017-08-23 14.24.26.coffee
-framer/backups/backup-2017-08-23 14.25.26.coffee
-framer/backups/backup-2017-08-23 14.26.26.coffee
-framer/backups/backup-2017-08-23 14.27.26.coffee
-framer/backups/backup-2017-08-23 14.28.26.coffee
-framer/backups/backup-2017-08-23 14.29.26.coffee
-framer/backups/backup-2017-08-23 14.30.26.coffee
-framer/backups/backup-2017-08-23 14.31.26.coffee
-framer/backups/backup-2017-08-23 14.32.26.coffee
-framer/backups/backup-2017-08-23 14.33.26.coffee
-framer/backups/backup-2017-08-23 14.34.26.coffee
-framer/backups/backup-2017-08-23 14.36.26.coffee
-framer/backups/backup-2017-08-23 14.37.26.coffee
-framer/backups/backup-2017-08-23 14.38.26.coffee
-framer/backups/backup-2017-08-23 14.44.26.coffee
-framer/backups/backup-2017-08-23 14.45.26.coffee
-framer/backups/backup-2017-08-23 14.46.26.coffee
-framer/backups/backup-2017-08-23 14.47.26.coffee
-framer/backups/backup-2017-08-23 14.57.37.coffee
-framer/backups/backup-2017-08-23 14.57.37.vekter
-framer/backups/backup-2017-08-23 15.06.37.coffee
-framer/backups/backup-2017-08-23 15.20.51.coffee
-framer/backups/backup-2017-08-23 15.20.51.vekter
-framer/backups/backup-2017-08-23 16.06.51.coffee
-framer/backups/backup-2017-08-23 16.07.51.coffee
-framer/backups/backup-2017-08-23 16.39.51.coffee
-framer/backups/backup-2017-08-23 16.40.51.coffee
-framer/backups/backup-2017-08-23 16.42.51.coffee
-framer/backups/backup-2017-08-23 17.38.51.coffee
-framer/backups/backup-2017-08-23 17.45.51.coffee
-framer/backups/backup-2017-08-23 17.46.52.coffee
-framer/backups/backup-2017-08-23 17.47.51.coffee
 framer/coffee-script.js
 framer/config.json
-framer/design.vekter
 framer/framer.generated.js
 framer/framer.init.js
 framer/framer.js
-framer/framer.js.map
 framer/framer.modules.js
 framer/framer.vekter.js
 framer/images/cursor-active.png
@@ -59,10 +17,6 @@ framer/images/icon-192.png
 framer/images/icon-76.png
 framer/manifest.txt
 framer/preview.png
-framer/social-1200x630.png
-framer/social-800x600.png
-framer/social-80x80.png
-framer/social-880x460.png
 framer/style.css
 framer/version
 imported/yummy@2x/images/Layer-default-n0y0mzm4.png
